@@ -1,0 +1,21 @@
+# ── Ignore everything by default ──
+*
+
+# ── Allow only these ──
+!README.md
+!frontend/
+!frontend/**
+!backend/
+!backend/**
+!.gitignore
+
+# ── Still ignore generated/temp files inside allowed folders ──
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+.next/
+*.DS_Store
+.ipynb_checkpoints/
+*.tsbuildinfo
+backend/uploads/*.mp4
